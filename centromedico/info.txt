@@ -1,0 +1,42 @@
+
+====== VISTAS =====
+1.  Vista Total Compras                  --> vtotalcompras 
+2.  Vista Total Pagos Compras            --> vtotalpagos
+3.  Vista Total Pendientes Compras       --> vtotalpendientes
+4.  Vista Total Pagos Compras Mes        --> vtotalcomprasmes
+5.  Total Ventas                         
+6.  Total Pago Ventas
+7.  Total Productos                      --> vtotalarticulos
+8.  Total Existencias                    --> vexistencias
+9.  Productos Existencias Bajas          --> varticulosbajas
+10. Productos Agotados                   --> varticulosagotados
+
+
+====== PROCEDIMIENTOS ALMACENADOS =====
+1. Consulta Compras                     --> spcompras
+2. Consulta Individual Compras          --> spcompra
+3. Consulta Articulos                   --> sparticulos
+4. Consulta Individual Articulos        --> sparticulo
+5. Actualizar Existencia Articulos      --> spcantcompras
+6. Consulta Cliente                     --> spcliente
+7. Consulta Clientes Todos              --> spclientes
+8. Consulta Compras Detalle (Todos)     --> spcomprasdetalle
+9. Consulta Compra Detalle              --> spcomprasdetalle
+10.Consulta Precio                      --> spprecio
+11.Consulta Venta                       --> spventa
+12.Consulta Venta Detalle               --> spventadetalle
+13.Consulta Ventas (Todos)              --> spventas
+13.Consulta Ventas Detalle (Todos)      --> spventasdetalle
+
+
+====== Triggers =====
+1. Trigger Insertar Compra Detalle      --> trgInsertarCompraDetalle 
+2. Trigger Borrar Compra Detalle        --> trgBorrarCompraDetalle
+3. Trigger Insertar Venta Detalle       --> trgInsertarVentaDetalle 
+4. Trigger Borrar Venta Detalle         --> trgBorrarVentaDetalle
+5. trigger actualizar Compra            --> trgborrarsdetalletotal
+6. trigger actualizar Venta             --> trgborrardetalletotalventa
+7. Trigger Borrar Compra - detalle      --> trgBorrarCompra
+8. Trigger Borrar Venta - detalle       --> trgborrarventa
+9. Trigger comprar saldo Proveedores    --> trgsaldoprov
+10. Trigger venta saldo Clientes        -->trgsaldoclientes

@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'bootstrap icons';
+    src: url('../fonts/bootstrap-icons.woff');
+}
+
+body{
+    font-size: 14px;
+}
+
+/*Boostrap Cambios*/
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    background: #fff;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+}
+
+.btn i{
+    margin-left: 10px;
+}
+
+.btn-nuevo {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    background: #28b5b5;
+    color: #fff;
+    width: auto;
+    text-decoration: none;
+    transition: all ease .3s;
+    border: none;
+}
+
+.btn-nuevo:hover {
+    color: #fff;
+    background: #208e8e;
+}
+
+.btn-editar {
+    background-color: #0779e4;
+}
+
+.btn-eliminar {
+    background-color: #ff5e57;
+}
+
+input {
+    padding: 5px;
+}
+
+.formulario {
+    padding: 0 60px;
+}
+
+h1 {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+  
+/*Menu Lateral*/
+.menu-lateral{
+    background: #1e272e;
+    width: 15%;
+    min-width: 200px;
+    display: inline-block;
+    height: 150vh;
+    padding: 20px 0;
+    position: fixed;
+}
+
+
+
+.menu-lateral a,
+.menu-lateral p {
+    background: #303841;
+    border-left: 2px solid #303841;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    transition: all .3s;
+}
+
+.menu-lateral p {
+    color: #9fa6ad;
+    background: #1e272e;
+    border-left: 2px solid#1e272e;
+    margin: 0;
+}
+
+.menu-lateral a:hover,
+.menu-lateral a.active {
+    color: #28b5b5;
+    background: #1e272e;
+    border-left: 2px solid #28b5b5;
+}
+
+.menu-lateral a i {
+    padding-right: 15px;
+}
+
+
+
+/*Contenido*/
+.contenido {
+    padding-left: 15%;
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    background: #eeeeee;
+}
+
+/*Inicio*/
+.contenido .resumen {
+    padding: 0 60px;
+}
+
+.contenido .resumen .tarjeta {
+    padding-top: 15px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.t1 {
+    background: #485460;
+}
+
+.t2 {
+    background: #0779e4;
+}
+
+.t3 {
+    background: #28b5b5;
+}
+
+.t4 {
+    background: #05c46b;
+}
+
+.t5 {
+    background: #ff6b6b;
+}
+
+.t6 {
+    background: #feca57;
+}
+
+.contenido .resumen .tarjeta h1 {
+    display: block;
+    font-size: 60px;
+    padding: 0 15px;
+}
+.contenido .resumen .tarjeta p {
+    display: block;
+    padding: 0 15px;
+}
+
+.contenido .resumen .tarjeta a {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 5px 15px;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenido .resumen .tarjeta a i {
+    padding-left: 15px;
+}
+
+/*Compras*/
+.resumen-compras {
+    padding: 0 60px;
+    margin: 0;
+}
+
+.tarjetas-compras {
+    padding: 20px 0;
+}
+
+.resumen-compras .tarjeta-d {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+.resumen-compras .tarjeta-d .icono {
+    display: flex;
+    align-items: center;
+}
+
+.resumen-compras .tarjeta-d .icono i {
+    display: inline-block;
+    font-size: 60px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.resumen-compras .tarjeta-d .texto {
+    background: #fff;
+    color: #373a40;
+    padding: 15px;
+}
+
+.resumen-compras .tarjeta-d .texto h1 {
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+.resumen-compras .tarjeta-d .texto p {
+    padding: 0 15px;
+    font-weight: 600;
+}
+
+/*Estilos Tablas*/
+
+.contenido .contenido-tablas {
+    width: 100%;
+    background: #fff;
+    padding: 30px 60px;
+}
+
+.contenido .contenido-tablas .filtros {
+    padding: 30px 0;
+}
+
+.contenido .contenido-tablas .filtros .filtro-cantidad p,
+.contenido .contenido-tablas .filtros .filtro-cantidad select {
+    display: inline-block;
+    padding: 5px;
+}
+
+.contenido .contenido-tablas .filtros .buscar {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenido .contenido-tablas .filtros .buscar .input-buscar:focus {
+    border: 1px solid #373a40;
+    box-shadow: none;
+}
+
+.contenido-tablas .filtros .buscar .icono {
+    background: #28b5b5;
+    border: none;
+    color: #fff;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.contenido-tablas .filtros .buscar .icono {
+    background: #24a6a6;
+}
