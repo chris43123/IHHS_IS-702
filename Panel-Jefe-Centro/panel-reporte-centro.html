@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+
+</head>
+<body> 
+    <div class="nav">
+        <div class="item-left">
+            <a href="#"><i class="fas fa-th-large"></i></a>
+            <a href="#">Gerente</a>
+        </div>
+        <div class="item-right">
+            <a href="#"><i class="fas fa-bell"></i></a>
+            <a href="#"><i class="fas fa-question-circle"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+            <a href="#"><img src="../img/anya-taylor-joy-getty1-t.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <div class="row clinica">
+                    <div class="col-md-3">
+                        <i class="far fa-hospital"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <h4>Clínica</h4>
+                        <p>Clínica Peiférica Calpules</p>
+                    </div>
+                </div>
+                <div class="row items">
+                    <a href="panel-inicio.html" class="active"><i class="fas fa-home"></i><span>Inicio</span> </a>
+                    <a href="panel-citas.html"><i class="fas fa-clipboard-check"></i><span>Citas</span></a>
+
+                    <button class="dropdown-btn">Reportes
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="panel-reporte-centro.html"><i class="far fa-hospital"></i><span>Reporte Centro Médico</span></a>
+                        <a href=""><i class="fas fa-syringe"></i><span>Reporte Vacunas</span></a>
+                        <a href=""><i class="fas fa-file-signature"></i></i><span>Reporte Citas</span></a>
+                        <a href=""><i class="far fa-id-badge"></i><span>Reporte Pacientes</span> </a>
+                    </div>
+
+                    <div class="separar"></div>
+                    
+                    <button class="dropdown-btn">Nuevo Formulario
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="panel-form-pedido.html"><i class="fab fa-buffer"></i><span>Pedido</span> </a>
+                        <a href="panel-form-dañadas.html"><i class="far fa-file-excel"></i><span>Dañadas</span> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-10 panel">
+                <div class="row justify-content-between top">
+                    <div class="col-md-6 breadcumbs">
+                        <span class="float-left">Inicio</span>
+                    </div>
+                    <div class="col-md-6 right">
+                        <a href="#" class="btn btn-primary btn-sm">Encuesta</a>
+                    </div>
+                </div>
+
+                <div class="reporte pt-4">
+                    <div class="row">
+                        <div class="col-md-6 logo">
+                            <img src="../img/ihss.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row dato-reporte">
+                                <div class="col-md-4 dato"><span>Frecuencia: </span> Mensual</div>
+                                <div class="col-md-4 dato"><span>No reporte: </span> 0245</div>
+                                <div class="col-md-4 dato"><span>Emitido: </span> 12/04/2021</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <h4>Reporte Individual de Centro Médico</h3>
+                        <p>Datos correspondientes al 31 de diciembre de 2021</p>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-8">
+                            <h5>Clínica Periférica Calpules</h5>
+                            <div class="row pt-3">
+                                <div class="col-md-2 bold">
+                                    <p>Ciudad:</p>
+                                    <p>Horario:</p>
+                                    <p>Director:</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="t-gris">San Pedro Sula</p>
+                                    <p class="t-gris">8:00 am - 7:30 pm</p>
+                                    <p class="t-gris">Cillian Murphy</p>
+                                </div>
+                                <div class="col-md-2 bold">
+                                    <p>Dirección:</p>
+                                    <p>Categoría:</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p class="t-gris">Col. Calpules</p>
+                                    <p class="t-gris">Clínica</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 estadistica">
+                        <h5 class="pb-3">Personal de centro médico</h5>
+                        <div class="col-md-2">
+                            <div class="cuadro-g dato">
+                                <h1>02</h1>
+                                <h5 class="t-blue">M. General</h5>
+                                <a href="#">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cuadro-g dato">
+                                <h1>14</h1>
+                                <h5 class="t-blue">Enfermeras</h5>
+                                <a href="#">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cuadro-g dato">
+                                <h1>02</h1>
+                                <h5 class="t-blue">Cirujanos</h5>
+                                <a href="#">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cuadro-g dato">
+                                <h1>5</h1>
+                                <h5 class="t-blue">Laboratorio</h5>
+                                <a href="#">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cuadro-g dato">
+                                <h1>1</h1>
+                                <h5 class="t-blue">Epidemiólogo</h5>
+                                <a href="#">Ver detalles</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="cuadro-g dato">
+                                <h1>2</h1>
+                                <h5 class="t-blue">Otros</h5>
+                                <a href="#">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-12 cuadro tabla-inventario">
+                            <h4><strong>Resumen General de citas</strong></h4>
+                            <table class="table table-hover">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Vacuna</th>
+                                    <th scope="col">Inventario</th>
+                                    <th scope="col">Dañadas</th>
+                                    <th scope="col">Aplicadas</th>
+                                    <th scope="col">Reservadas</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Moderna</th>
+                                    <td>1,250</td>
+                                    <td class="t-red">121</td>
+                                    <td>4,560</td>
+                                    <td>652</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Pfizer</th>
+                                    <td>1,250</td>
+                                    <td class="t-red">121</td>
+                                    <td>4,560</td>
+                                    <td>652</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Astrazeneca</th>
+                                    <td>1,250</td>
+                                    <td class="t-red">121</td>
+                                    <td>4,560</td>
+                                    <td>652</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Sputnik</th>
+                                    <td>1,250</td>
+                                    <td class="t-red">121</td>
+                                    <td>4,560</td>
+                                    <td>652</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Johnson</th>
+                                    <td>1,250</td>
+                                    <td class="t-red">121</td>
+                                    <td>4,560</td>
+                                    <td>652</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Dengvaxia</th>
+                                    <td>1,250</td>
+                                    <td class="t-red">121</td>
+                                    <td>4,560</td>
+                                    <td>652</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>   
+                    </div>
+
+                    <div class="row mt-4">
+                        <h4>Estadística de flujo de citas por campaña</h3>
+                    </div>
+
+                    <div class="row mt-4">
+                        <div class="col-md-3 cuadro-g me-3">
+                            <div class="row pt-3">
+                                <div class="col-md-12">
+                                    <h6 class="t-blue">COVID-19</h6>
+                                    <div class="separar"></div>
+                                </div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Pfizer</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">650 <i class="fas fa-caret-up t-verde"></i></p></div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Moderna</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">40 <i class="fas fa-caret-down t-red"></i></p></div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Astrazeneca</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">250 <i class="fas fa-caret-up t-verde"></i></p></div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Sputnik</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">0 <i class="fas fa-caret-down t-red"></i></p></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 cuadro-g me-3">
+                            <div class="row pt-3">
+                                <div class="col-md-12">
+                                    <h6 class="t-blue">COVID-19</h6>
+                                    <div class="separar"></div>
+                                </div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Pfizer</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">650 <i class="fas fa-caret-up t-verde"></i></p></div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Moderna</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">40 <i class="fas fa-caret-down t-red"></i></p></div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Astrazeneca</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">250 <i class="fas fa-caret-up t-verde"></i></p></div>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col-md-6"><p><strong>Sputnik</strong></p></div>
+                                <div class="col-md-6"><p class="text-end">0 <i class="fas fa-caret-down t-red"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/dropdown.js"></script>
+    <script src="https://kit.fontawesome.com/5883557ab1.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+     <!-- css -->
+     <link rel="stylesheet" href="../css/estilos.css">
+ 
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+ 
+</head>
+<body>
+    <div class="container-fluid bg-white">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <h2 class="text-center p-4 fw-bold">Formulario Cita de Vacuna</h2>
+            </div>
+        </div>
+        <div class="row logo-cita d-flex justify-content-center">
+            <div class="col-md-3">
+                <img src="../img/ihss.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="row formulario d-flex justify-content-center pt-5">
+            
+            <div class="col-md-4 ">
+                <form action="#">
+                    <h5>Información Personal</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="#">Nombre</label>
+                            <input type="text" name="" id="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="#">Apellidos</label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="#">Fecha</label>
+                            <input type="date" name="" id="">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="#">Sexo</label>
+                            <input type="radio" name="sexo" id="">
+                            <label class="l-check" for="#">Femenino</label>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="#">-</label>
+                            <input type="radio" name="sexo" id="">
+                            <label class="l-check" for="#">Masculino</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="#">No. identidad</label>
+                            <input type="number" name="" id="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="#">Nacionalidad</label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4">
+                        <div class="col">
+                            <h5>Información Adicional</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="#">Ciudad</label>
+                            <select name="" id="" required>
+                                <option value="">Seleccione--</option>
+                                <option value="">San Pedro Sula</option>
+                                <option value="">Tegucigalpa</option>
+                                <option value="">Santa Rosa de Copán</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="#">Dirección</label>
+                            <input type="text" required>
+                            <p class="comentario">Indique bloque o número de casa y de ser posible una referencia.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="#">Telefono</label>
+                            <input type="text" name="" id="" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="#">Correo</label>
+                            <input type="email" required>
+                        </div>
+                    </div>
+                    <div class="row pb-4">
+                        <div class="col-md-12">
+                            <input type="submit" value="Siguiente">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

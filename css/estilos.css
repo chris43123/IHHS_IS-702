@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #F6F8F9;
+}
+
+/* Estilos Generales */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+span {
+    color: #5B6871;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.t-red {
+    color: #F87474;
+}
+
+.t-verde {
+    color: #00B929;
+}
+
+.t-blue {
+    color: #109CF1;
+}
+
+.t-gris {
+    color: #5B6871;
+}
+
+.btn-primary {
+    background: #18A0FB;
+    border: none;
+    padding: 5px 20px;
+    border: none;
+    color: #fff!important;
+}
+
+.descargar {
+ text-align: center;
+ padding: 20px 0;
+}
+
+.btn-primary:hover {
+    background: #128cdd;
+}
+
+.btn-primary:focus {
+    border: none;
+}
+
+.cuadro {
+    background: #fff;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px rgba(210,210,210,0.75);
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(210,210,210,0.75);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(210,210,210,0.75);
+}
+
+.cuadro-gris{
+    background: #fff;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.cuadro-g{
+    background: #F6F8F9;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.nav {
+    padding: 15px 0;
+    border-bottom: 1px solid #E5E9EB;
+}
+
+.nav a {
+    margin: 10px;
+    font-size: 16px;
+    color: #5B6871;
+}
+
+.nav a i {
+    color: #5B6871;
+    font-size: 14px ;
+}
+
+.nav a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.nav .item-left {
+    position: relative;
+    left: 0;
+}
+
+.nav .item-right {
+    position: absolute;
+    right: 0;
+}
+
+/* Barra Lateral */
+
+.sidebar {
+    padding: 20px;
+    background: #F6F8F9;
+    height: 100vh;
+}
+
+.sidebar .clinica i {
+    padding: 0 15px;
+    font-size: 50px;
+    color: #109CF1;
+}
+
+.sidebar .clinica p {
+    color: #5B6871;
+    font-size: 14px;
+}
+
+.sidebar .items {
+    padding: 0 15px;
+}
+
+.sidebar .items a {
+    padding: 8px 10px;
+    color: #5B6871;
+}
+
+.sidebar .items .dropdown-btn {
+    padding: 8px 10px;
+    color: #5B6871;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.separar {
+    margin: 20px 0;
+    border-bottom: 1px solid #E5E9EB;
+}
+
+.sidebar .items .dropdown-container {
+    display: none;
+    padding-left: 8px;
+  }
+
+.sidebar .items .dropdown-container a {
+    width: 100%;
+    display: block;
+}
+
+.sidebar .items .dropdown-container i {
+    font-size: 16px;
+}
+
+.fa-caret-down {
+    /* float: left; */
+    padding-left: 8px;
+  }
+
+.sidebar .items .sub-item {
+    margin-left: 20px;
+}
+
+.sidebar .items .active{
+    background: #D7EDFF;
+    border-radius: 5px;
+    color: #109CF1;
+}
+
+.sidebar .items a i {
+    margin-right: 10px;
+}
+
+/* Panel */
+
+.panel {
+    padding: 10px 40px;
+    background: #F6F8F9;
+    border-left: 1px solid #E5E9EB;
+}
+
+/* ----------------PERSONAL-CENTRO-MEDICO--------------------- */
+
+/* Panel Citas */
+
+.panel .top {
+    padding: 10px 0;
+}
+
+.panel .breadcumbs {
+    color: #5B6871;
+    font-weight: 200;
+}
+
+.panel .right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.panel .citas {
+    padding: 20px 0;
+}
+
+.panel .c-citas {
+    padding-left: 10px;
+}
+
+.panel .citas h6 {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.panel .citas .card-cita {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.panel .citas .card-cita strong {
+    color: #000;
+}
+
+.panel .citas .card-cita img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.panel .citas .card-cita a {
+    color: #109CF1;
+}
+
+.panel .citas .card-cita a:hover {
+    cursor: pointer;
+}
+
+/* Panel Inicio */
+
+.panel .resumen .bl {
+    border-right: 1px solid #E5E9EB;
+}
+
+.panel .resumen .dato i{
+    font-size: 15px;
+}
+
+.panel .resumen .aux i{
+    font-size: 8px;
+}
+
+
+/* ----------------JEFE-CENTRO--------------------- */
+
+.panel .tabla-inventario th{
+    padding: 20px 0;
+}
+
+.panel .tabla-inventario td{
+    padding: 20px 0;
+}
+
+/* ----------------FORMULARIO--------------------- */
+
+.formulario form label{
+    display: block;
+    padding: 10px 0;
+}
+
+.formulario form input[type=text],
+.formulario form input[type=number],
+.formulario form input[type=date],
+.formulario form input[type=email],
+.formulario form select,
+.formulario form textarea {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #3C444D;
+}
+
+.formulario form textarea {
+    height: 150px;
+    max-height: 300px;
+}
+
+.formulario .comentario {
+    font-size: 12px;
+    padding-top: 4px;
+    color: #5B6871;
+}
+
+.formulario form input[type=submit] {
+    border: none;
+    background: #18A0FB;
+    color: #fff;
+    width: auto;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.formulario form input[type=submit]:hover {
+    background: #128cdd;
+}
+
+.checkbox label,
+.l-check{
+    display: inline-block!important;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: -10px;
+}
+
+.logo-cita img {    
+    width: 100%;
+    margin: 10px auto;
+}
+
+/* ----------------GERENTE--------------------- */
+
+.panel .estadistica .dato {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.panel .estadistica h1 {
+    color: #109CF1;
+}
+
+/* ----------------Reporte--------------------- */
+
+.panel .reporte {
+    background: #fff;
+    padding: 20px 45px;
+}
+
+.panel .reporte .dato-reporte {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.panel .reporte .logo img{
+    height: 70px;
+}
+
+/* ----------------Reporte Paciente--------------------- */
+
+.panel .paciente .info-paciente .imagen img{
+    width: 90%;
+}
+
+.panel .paciente .info-paciente .bold p {
+    font-weight: 600;
+}

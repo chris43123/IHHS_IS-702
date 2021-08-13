@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+
+</head>
+<body> 
+    <div class="nav">
+        <div class="item-left">
+            <a href="#"><i class="fas fa-th-large"></i></a>
+            <a href="#">Gerente</a>
+        </div>
+        <div class="item-right">
+            <a href="#"><i class="fas fa-bell"></i></a>
+            <a href="#"><i class="fas fa-question-circle"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+            <a href="#"><img src="../img/anya-taylor-joy-getty1-t.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <div class="row clinica">
+                    <div class="col-md-3">
+                        <i class="far fa-hospital"></i>
+                    </div>
+                    <div class="col-md-9">
+                        <h4>Clínica</h4>
+                        <p>Clínica Peiférica Calpules</p>
+                    </div>
+                </div>
+                <div class="row items">
+                    <a href="panel-inicio.html" class="active"><i class="fas fa-home"></i><span>Inicio</span> </a>
+                    <a href="panel-citas.html"><i class="fas fa-clipboard-check"></i><span>Citas</span></a>
+                    <a href="#"><i class="fas fa-tasks"></i></i><span>Reportes</span></a>
+
+                    <div class="separar"></div>
+                    <a href="#"><i class="fas fa-clipboard-check"></i></i><span>Nueva Cita</span></a>
+                    <a href="#"><i class="far fa-id-badge"></i><span>Pacientes Vacunados</span></a>
+                </div>
+            </div>
+
+            <div class="col-md-10 panel">
+                <div class="row justify-content-between top">
+                    <div class="col-md-6 breadcumbs">
+                        <span class="float-left">Inicio</span>
+                    </div>
+                    <div class="col-md-6 right">
+                        <a href="#" class="btn btn-primary btn-sm">Encuesta</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Reporte Paciente</h4>
+                    </div>
+                </div>
+
+                <div class="row formulario">
+                    <div class="col-md-6">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="#">Afiliado:</label>
+                                    <input type="text" required>
+                                    <a href="#" class="btn btn-primary btn-sm mt-2">Buscar</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="reporte paciente mt-4" id="imprimir">
+                    <div class="row">
+                        <div class="col-md-6 logo">
+                            <img src="../img/ihss.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row dato-reporte">
+                                <div class="col-md-4 dato"><span>Frecuencia: </span> Mensual</div>
+                                <div class="col-md-4 dato"><span>No reporte: </span> 0245</div>
+                                <div class="col-md-4 dato"><span>Emitido: </span> 12/04/2021</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <h4 class="t-gris">Reporte Individual de Paciente</h3>
+                        <div class="separar"></div>
+                    </div>
+                    <div class="row info-paciente mt-4">
+                        <div class="col-md-3 imagen">
+                            <img src="../img/anya-taylor-joy-getty1-t.jpg" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Información Personal</h5>
+                            <div class="row pt-3">
+                                <div class="col-md-6 bold">
+                                    <p>Nombre:</p>
+                                    <p>Apellidos:</p>
+                                    <p>Fecha de Nacimiento:</p>
+                                    <p>Nacionalidad:</p>
+                                    <p>Sexo:</p>
+                                    <p>Dirección:</p>
+                                    <p>Identidad:</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="t-gris">Anya</p>
+                                    <p class="t-gris">Taylor-Joy</p>
+                                    <p class="t-gris">11/05/1999</p>
+                                    <p class="t-gris">Hondureño</p>
+                                    <p class="t-gris">Femenino</p>
+                                    <p class="t-gris">San Pedro Sula</p>
+                                    <p class="t-gris">0501-1997-0000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Información Adicional</h5>
+                            <div class="row pt-3">
+                                <div class="col-md-6 bold">
+                                    <p>Número Seguro:</p>
+                                    <p>Fecha de Afiliación:</p>
+                                    <p>Empresa:</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="t-gris">1325</p>
+                                    <p class="t-gris">12/05/2014</p>
+                                    <p class="t-gris">Diunsa</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+
+                    <div class="row citas">
+                        <div class="col-md-12">
+                            <div class="cuadro-g mt-4">
+                                <h6><strong>Proceso de vacunación</strong></h6>
+                                <p>23, septiembre 2021</p>
+                                <div class="row cuadro card-cita p-4">
+                                    <div class="col-md-10">
+                                        <div class="row justify-content-between pb-3">
+                                            <div class="col-md-3 n-cita">
+                                                <span><strong>Cita - 02135</strong></span>
+                                                </br>
+                                                </br>
+                                                <div class="col-md-12">
+                                                    <img src="../img/anya-taylor-joy-getty1-t.jpg" alt="">
+                                                    <span class="ms-3">Anya Taylor</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span>Centro Médico:</span> Clínica Periférica Calpules
+                                                </br>
+                                                </br>
+                                                <span>Ciudad:</span> San Pedro Sula, Cortés
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span>Hora Prevista:</span> 07:30 am
+                                                </br>
+                                                </br>
+                                                <span>Vacuna:</span> Pfizer
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span>Hora Prevista:</span> 07:30 am
+                                                </br>
+                                                </br>
+                                                <span>Vacuna:</span> Pfizer
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a href="#" class="btn btn-primary btn-sm">Completado</a>
+                                    </div>
+                                </div>
+
+                                <div class="row cuadro card-cita p-4">
+                                    <div class="col-md-10">
+                                        <div class="row justify-content-between pb-3">
+                                            <div class="col-md-3 n-cita">
+                                                <span><strong>Cita - 02135</strong></span>
+                                                </br>
+                                                </br>
+                                                <div class="col-md-12">
+                                                    <img src="../img/anya-taylor-joy-getty1-t.jpg" alt="">
+                                                    <span class="ms-3">Anya Taylor</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span>Centro Médico:</span> Clínica Periférica Calpules
+                                                </br>
+                                                </br>
+                                                <span>Ciudad:</span> San Pedro Sula, Cortés
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span>Hora Prevista:</span> 07:30 am
+                                                </br>
+                                                </br>
+                                                <span>Vacuna:</span> Pfizer
+                                            </div>
+                                            <div class="col-md-3">
+                                                <span>Hora Prevista:</span> 07:30 am
+                                                </br>
+                                                </br>
+                                                <span>Vacuna:</span> Pfizer
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <a href="#" class="btn btn-primary btn-sm">Completado</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <h4 class="text-center">Detalle de Enfermedades Base</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row cuadro">
+                                <h6 class="pb-3">Enfermedades pulmonares</h6>
+                                <div class="col-md-4">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox" checked>
+                                            <label for="#">Enfermedad pulmonar obstructiva crónica (EPOC)</label>
+                                        </div>
+                                        <div class="col-md-12  pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Cancer Pulmón</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox" checked>
+                                            <label for="#">Fibrosis quistica</label>
+                                        </div>
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Fibrosis Pulmonar</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Asma moderada-grave</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row cuadro">
+                                <h6 class="pb-3">Enfermedades pulmonares</h6>
+                                <div class="col-md-4">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox" checked>
+                                            <label for="#">Enfermedad pulmonar obstructiva crónica (EPOC)</label>
+                                        </div>
+                                        <div class="col-md-12  pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Cancer Pulmón</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox" checked>
+                                            <label for="#">Fibrosis quistica</label>
+                                        </div>
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Fibrosis Pulmonar</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Asma moderada-grave</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row cuadro">
+                                <h6 class="pb-3">Enfermedades pulmonares</h6>
+                                <div class="col-md-4">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox" checked>
+                                            <label for="#">Enfermedad pulmonar obstructiva crónica (EPOC)</label>
+                                        </div>
+                                        <div class="col-md-12  pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Cancer Pulmón</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox" checked>
+                                            <label for="#">Fibrosis quistica</label>
+                                        </div>
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Fibrosis Pulmonar</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="row checkbox">
+                                        <div class="col-md-12 pb-3">
+                                            <input type="checkbox">
+                                            <label for="#">Asma moderada-grave</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row descargar">
+                        <div class="col-md-12">
+                            <a href="javascript:imprSelec('imprimir')" class="btn btn-primary btn-sm"><i class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/dropdown.js"></script>
+    <script src="../js/imprimir.js"></script>
+    <script src="https://kit.fontawesome.com/5883557ab1.js" crossorigin="anonymous"></script>
+</body>
+</html>
